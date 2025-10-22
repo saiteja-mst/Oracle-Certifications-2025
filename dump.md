@@ -1,12 +1,12 @@
 **Question 1**  
-**What problem can occur if there is not enough overlap between consecutive chunks when splitting a document for an LLM?**  <br><br>
+**What problem can occur if there is not enough overlap between consecutive chunks when splitting a document for an LLM?**  <br>
     ○ The embeddings of the consecutive chunks may be more similar semantically.  
 ○ It will not increase the number of chunks of a given size.  
 ○ It will not have any impact.  
 ✅ **The continuity of the context may be lost.**  
 
 **Question 2**  
-**When using a specific LLM and splitting documents into chunks, which parameter should you check to ensure the chunks are appropriately sized for processing?**  <br><br>
+**When using a specific LLM and splitting documents into chunks, which parameter should you check to ensure the chunks are appropriately sized for processing?**  <br>
     ✅ **Context window size.**  
 ○ Max number of tokens LLM can generate.  
 ○ Number of LLM parameters.  
@@ -15,7 +15,7 @@
 **Question 3**  
 **An AI development company is working on an advanced AI assistant capable of handling queries in a seamless manner.**  
 **Their goal is to create an assistant that can **analyze** images provided by users and generate descriptive text, as well as take text descriptions and produce accurate visual representations.**  <br><br>
-**Considering the capabilities, which type of model would the company likely focus on integrating into their AI assistant?**  
+**Considering the capabilities, which type of model would the company likely focus on integrating into their AI assistant?**  <br><br>
     ○ A language model that operates on a token-by-token output basis.  
 ✅ **A diffusion model that specializes in producing complex outputs.**  
 ○ A Retrieval-Augmented Generation (RAG) model that uses text as input and output.  
@@ -377,6 +377,7 @@ Prompt 3<br>
 ✅ **To ensure the chatbot’s responses are diverse and unpredictable, the engineer sets a high temperature and uses non-deterministic decoding.**<br>
 ○ In a situation requiring creative and varied responses, the engineer selects greedy decoding with an increased temperature.<br>
 ○ To minimize the risk of nonsensical replies, the engineer opts for non-deterministic decoding with a very low temperature.<br>
+
 
 
 
