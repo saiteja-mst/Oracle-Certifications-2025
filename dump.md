@@ -359,7 +359,7 @@ Prompt 3<br>
 ○ Step-Back Prompting<br>
 ○ Least-to-most Prompting<br>
 
-**48. ****When should you use Prompting versus Training to achieve your goals?**<br>
+**48. When should you use Prompting versus Training to achieve your goals?**<br>
     ✅ **Use Prompting to emphasize product names in responses and Training to refine the model’s understanding of industry-specific terminology.**<br>
 ○ Use Prompting to improve model’s knowledge of industry-specific terminology and Training to prioritize product names.<br>
 ○ Use Prompting for both product names and terminology.<br>
@@ -377,6 +377,7 @@ Prompt 3<br>
 ✅ **To ensure the chatbot’s responses are diverse and unpredictable, the engineer sets a high temperature and uses non-deterministic decoding.**<br>
 ○ In a situation requiring creative and varied responses, the engineer selects greedy decoding with an increased temperature.<br>
 ○ To minimize the risk of nonsensical replies, the engineer opts for non-deterministic decoding with a very low temperature.<br>
+
 
 
 
