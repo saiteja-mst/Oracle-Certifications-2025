@@ -137,13 +137,13 @@ What does the score field represent in the vector search results returned by the
 
 **Question 18**<br>
 **How are fine-tuned customer models stored to enable strong data privacy and security in OCI Generative AI service?**<br>
-✅ **Stored in OCI Object Storage and encrypted by default.****<br>
-**○ Stored in OCI Key Management service.<br>
+✅ **Stored in OCI Object Storage and encrypted by default.**<br>
+○ Stored in OCI Key Management service.<br>
 ○ Stored in an unencrypted form in OCI Object Storage.<br>
 ○ Shared among multiple customers for efficiency.<br>
 
 **Question 19**<br>
-**How long does the OCI Generative AI Agents service retain customer****‐****provided queries and retrieved context?**<br>
+**How long does the OCI Generative AI Agents service retain customer‐provided queries and retrieved context?**<br>
 ✅ **Only during the user’s session.**<br>
 ○ Indefinitely, for future analysis.<br>
 ○ Until the customer deletes the data manually.<br>
@@ -281,12 +281,12 @@ retr = vs.as_retriever(search_type="similarity", search_kwargs={"k": 3})<br>
 ○ Enhanced generalization to unseen data<br>
 ○ Increased model interpretability<br>
 
-**Question 38**
-**You need to build an LLM application using Oracle Database 23ai as the vector store and OCI Generative AI service to embed data and generate responses. What could be your approach?**
-    ✅ **Use ****LangChain**** Expression Language (LCEL).**
-○ Use LangChain classes to embed data outside the database and generate response.
-○ Use Select AI.
-○ Use DB Utils to generate embeddings and generate response using SQL.
+**Question 38**<br>
+**You need to build an LLM application using Oracle Database 23ai as the vector store and OCI Generative AI service to embed data and generate responses. What could be your approach?**<br>
+    ✅ **Use LangChain Expression Language (LCEL).**<br>
+○ Use LangChain classes to embed data outside the database and generate response.<br>
+○ Use Select AI.<br>
+○ Use DB Utils to generate embeddings and generate response using SQL.<br>
 
 **Question 39**<br>
 **What must be done to activate content moderation in OCI Generative AI Agents?**<br>
@@ -377,6 +377,7 @@ Prompt 3<br>
 ✅ **To ensure the chatbot’s responses are diverse and unpredictable, the engineer sets a high temperature and uses non-deterministic decoding.**<br>
 ○ In a situation requiring creative and varied responses, the engineer selects greedy decoding with an increased temperature.<br>
 ○ To minimize the risk of nonsensical replies, the engineer opts for non-deterministic decoding with a very low temperature.<br>
+
 
 
 
