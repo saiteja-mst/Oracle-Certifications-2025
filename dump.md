@@ -1,16 +1,16 @@
 **Question 1**  
 **What problem can occur if there is not enough overlap between consecutive chunks when splitting a document for an LLM?**  
-    ○ The embeddings of the consecutive chunks may be more similar semantically.
-○ It will not increase the number of chunks of a given size.
-○ It will not have any impact.
-✅ **The continuity of the context may be lost.**
+    ○ The embeddings of the consecutive chunks may be more similar semantically.  
+○ It will not increase the number of chunks of a given size.  
+○ It will not have any impact.  
+✅ **The continuity of the context may be lost.**  
 
 **Question 2**
-**When using a specific LLM and splitting documents into chunks, which parameter should you check to ensure the chunks are appropriately sized for processing?**
-    ✅ **Context window size.**
-○ Max number of tokens LLM can generate.
-○ Number of LLM parameters.
-○ Number of LLM layers.
+**When using a specific LLM and splitting documents into chunks, which parameter should you check to ensure the chunks are appropriately sized for processing?**  
+    ✅ **Context window size.**  
+○ Max number of tokens LLM can generate.  
+○ Number of LLM parameters.  
+○ Number of LLM layers.  
 
 **Question 3**
 **An AI development company is working on an advanced AI assistant capable of handling queries in a seamless manner.****
@@ -368,3 +368,4 @@ retr = vs.as_retriever(search_type="similarity", search_kwargs={"k": 3})
 ✅ **To ensure the chatbot’s responses are diverse and unpredictable, the engineer sets a high temperature and uses non-deterministic decoding.**
 ○ In a situation requiring creative and varied responses, the engineer selects greedy decoding with an increased temperature.
 ○ To minimize the risk of nonsensical replies, the engineer opts for non-deterministic decoding with a very low temperature.
+
