@@ -78,11 +78,11 @@ embed_text_detail.truncate = "NONE"<br>
 ✅ **Improved retrievals for Retrieval-Augmented Generation (RAG) systems**<br>
 
 **Question 10**<br>
-**Which of the following statements is NOT true?**
-    ✅ **Embeddings are represented as single-dimensional numerical values that capture text meaning.**
-○ Embeddings can be used to compare text based on semantic similarity.
-○ Embeddings of sentences with similar meanings are positioned close to each other in vector space.
-○ Embeddings can be created for words, sentences and entire documents.
+**Which of the following statements is NOT true?**<br>
+    ✅ **Embeddings are represented as single-dimensional numerical values that capture text meaning.**<br>
+○ Embeddings can be used to compare text based on semantic similarity.<br>
+○ Embeddings of sentences with similar meanings are positioned close to each other in vector space.<br>
+○ Embeddings can be created for words, sentences and entire documents.<br>
 
 **Question 11**
 **In OCI Generative AI Agents, what happens if a session-enabled endpoint remains idle for the specified timeout period?**<br>
@@ -377,6 +377,7 @@ Prompt 3<br>
 ✅ **To ensure the chatbot’s responses are diverse and unpredictable, the engineer sets a high temperature and uses non-deterministic decoding.**<br>
 ○ In a situation requiring creative and varied responses, the engineer selects greedy decoding with an increased temperature.<br>
 ○ To minimize the risk of nonsensical replies, the engineer opts for non-deterministic decoding with a very low temperature.<br>
+
 
 
 
