@@ -311,63 +311,65 @@ retr = vs.as_retriever(search_type="similarity", search_kwargs={"k": 3})
 
 **Question 42**
 **How does the use of a vector database with RAG-based Large Language Models (LLMs) fundamentally alter their responses?**
-    ✅ **It shifts the basis of their responses from static pretrained knowledge to real-time data retrieval.**
-○ It transforms their architecture from a neural network to a traditional database system.
-○ It enables them to bypass the need for pretraining on large text corpora.
-○ It limits their ability to understand and generate natural language.
-**Question 43**
-**What is one of the benefits of using dedicated AI clusters in OCI Generative AI?**
-    ✅ **Predictable pricing that doesn’t fluctuate with demand**
-○ Unpredictable pricing that varies with demand
-○ No minimum commitment required
-○ A pay-per-transaction pricing model
+    ✅ **It shifts the basis of their responses from static pretrained knowledge to real-time data retrieval.**<br>
+○ It transforms their architecture from a neural network to a traditional database system.<br>
+○ It enables them to bypass the need for pretraining on large text corpora.<br>
+○ It limits their ability to understand and generate natural language.<br>
 
-**Question 44**
-**An enterprise team deploys a hosting cluster to serve multiple versions of their fine-tuned model. They require 5 replicas for one version and 3 replicas for another. How many units will the hosting cluster require in total?**
-    ✅ **8**
-○ 13
-○ 16
-○ 11
+**Question 43**<br>
+**What is one of the benefits of using dedicated AI clusters in OCI Generative AI?**<br>
+    ✅ **Predictable pricing that doesn’t fluctuate with demand**<br>
+○ Unpredictable pricing that varies with demand<br>
+○ No minimum commitment required<br>
+○ A pay-per-transaction pricing model<br>
 
-**Question 45**
-**How does the architecture of dedicated AI clusters contribute to minimizing GPU memory overhead for T-Few fine-tuned ****model**** inference?**
-    ✅ **By sharing base model weights across multiple fine-tuned models on the same group of GPUs.**
-○ By optimizing GPU memory utilization for each model’s unique parameters.
-○ By allocating separate GPUs for each model instance.
-○ By loading the entire model into GPU memory for efficient processing.
+**Question 44**<br>
+**An enterprise team deploys a hosting cluster to serve multiple versions of their fine-tuned model. They require 5 replicas for one version and 3 replicas for another. How many units will the hosting cluster require in total?**<br>
+    ✅ **8**<br>
+○ 13<br>
+○ 16<br>
+○ 11<br>
 
-**Question 46**
-**Given the prompts, classify each as employing Chain-of-Thought, Least-to-most, or Step-Back prompting.**
-    ✅ **1: Chain-of-Thought, 2: Least-to-most, 3: Step-Back**
-○ 1: Chain-of-Thought, 2: Step-Back, 3: Least-to-most
-○ 1: Step-Back, 2: Chain-of-Thought, 3: Least-to-most
-○ 1: Least-to-most, 2: Chain-of-Thought, 3: Step-Back
+**Question 45**<br>
+**How does the architecture of dedicated AI clusters contribute to minimizing GPU memory overhead for T-Few fine-tuned **model** inference?**<br>
+    ✅ **By sharing base model weights across multiple fine-tuned models on the same group of GPUs.**<br>
+○ By optimizing GPU memory utilization for each model’s unique parameters.<br>
+○ By allocating separate GPUs for each model instance.<br>
+○ By loading the entire model into GPU memory for efficient processing.<br>
 
-**Question 4****7**
-**Which technique involves prompting the LLM to emit intermediate reasoning steps as part of its response?**
-    ✅ **Chain-of-Thought**
-○ In-context Learning
-○ Step-Back Prompting
-○ Least-to-most Prompting
+**Question 46**<br>
+**Given the prompts, classify each as employing Chain-of-Thought, Least-to-most, or Step-Back prompting.**<br>
+    ✅ **1: Chain-of-Thought, 2: Least-to-most, 3: Step-Back**<br>
+○ 1: Chain-of-Thought, 2: Step-Back, 3: Least-to-most<br>
+○ 1: Step-Back, 2: Chain-of-Thought, 3: Least-to-most<br>
+○ 1: Least-to-most, 2: Chain-of-Thought, 3: Step-Back<br>
 
-**48. ****When should you use Prompting versus Training to achieve your goals?**
-    ✅ **Use Prompting to emphasize product names in responses and Training to refine the model’s understanding of industry-specific terminology.**
-○ Use Prompting to improve model’s knowledge of industry-specific terminology and Training to prioritize product names.
-○ Use Prompting for both product names and terminology.
-○ Use Training for both product names and terminology.
+**Question 47**<br>
+**Which technique involves prompting the LLM to emit intermediate reasoning steps as part of its response?**<br>
+    ✅ **Chain-of-Thought**<br>
+○ In-context Learning<br>
+○ Step-Back Prompting<br>
+○ Least-to-most Prompting<br>
 
-**49. Which is the main characteristic of greedy decoding in the context of language model word prediction?**
-    ○ It selects words based on a flattened distribution over the vocabulary.
-○ It requires a large temperature setting to ensure diverse word selection.
-○ It chooses words randomly from the set of less probable candidates.
-✅ **It picks the most likely word to emit at each step of decoding.**
+**48. ****When should you use Prompting versus Training to achieve your goals?**<br>
+    ✅ **Use Prompting to emphasize product names in responses and Training to refine the model’s understanding of industry-specific terminology.**<br>
+○ Use Prompting to improve model’s knowledge of industry-specific terminology and Training to prioritize product names.<br>
+○ Use Prompting for both product names and terminology.<br>
+○ Use Training for both product names and terminology.<br>
+
+**49. Which is the main characteristic of greedy decoding in the context of language model word prediction?**<br>
+    ○ It selects words based on a flattened distribution over the vocabulary.<br>
+○ It requires a large temperature setting to ensure diverse word selection.<br>
+○ It chooses words randomly from the set of less probable candidates.<br>
+✅ **It picks the most likely word to emit at each step of decoding.**<br>
 
 
-**50. A software engineer is developing a chatbot using a large language model and must decide on a decoding strategy for generating the chatbot’s replies. Which decoding approach should they use in each of the following scenarios to achieve the desired outcome?**
-    ○ For maximum consistency in the chatbot’s language, the engineer chooses greedy decoding with a low temperature setting.
-✅ **To ensure the chatbot’s responses are diverse and unpredictable, the engineer sets a high temperature and uses non-deterministic decoding.**
-○ In a situation requiring creative and varied responses, the engineer selects greedy decoding with an increased temperature.
-○ To minimize the risk of nonsensical replies, the engineer opts for non-deterministic decoding with a very low temperature.
+**50. A software engineer is developing a chatbot using a large language model and must decide on a decoding strategy for generating the chatbot’s replies. Which decoding approach should they use in each of the following scenarios to achieve the desired outcome?**<br>
+    ○ For maximum consistency in the chatbot’s language, the engineer chooses greedy decoding with a low temperature setting.<br>
+✅ **To ensure the chatbot’s responses are diverse and unpredictable, the engineer sets a high temperature and uses non-deterministic decoding.**<br>
+○ In a situation requiring creative and varied responses, the engineer selects greedy decoding with an increased temperature.<br>
+○ To minimize the risk of nonsensical replies, the engineer opts for non-deterministic decoding with a very low temperature.<br>
+
 
 
 
