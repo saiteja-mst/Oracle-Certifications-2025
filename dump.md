@@ -1,12 +1,12 @@
 **Question 1**  
-**What problem can occur if there is not enough overlap between consecutive chunks when splitting a document for an LLM?**  
+**What problem can occur if there is not enough overlap between consecutive chunks when splitting a document for an LLM?**  <br><br>
     ○ The embeddings of the consecutive chunks may be more similar semantically.  
 ○ It will not increase the number of chunks of a given size.  
 ○ It will not have any impact.  
 ✅ **The continuity of the context may be lost.**  
 
 **Question 2**  
-**When using a specific LLM and splitting documents into chunks, which parameter should you check to ensure the chunks are appropriately sized for processing?**  
+**When using a specific LLM and splitting documents into chunks, which parameter should you check to ensure the chunks are appropriately sized for processing?**  <br><br>
     ✅ **Context window size.**  
 ○ Max number of tokens LLM can generate.  
 ○ Number of LLM parameters.  
@@ -14,7 +14,7 @@
 
 **Question 3**  
 **An AI development company is working on an advanced AI assistant capable of handling queries in a seamless manner.**  
-Their goal is to create an assistant that can ****analyze**** images provided by users and generate descriptive text, as well as take text descriptions and produce accurate visual representations.**  
+**Their goal is to create an assistant that can **analyze** images provided by users and generate descriptive text, as well as take text descriptions and produce accurate visual representations.**  <br><br>
 **Considering the capabilities, which type of model would the company likely focus on integrating into their AI assistant?**  
     ○ A language model that operates on a token-by-token output basis.  
 ✅ **A diffusion model that specializes in producing complex outputs.**  
@@ -22,20 +22,20 @@ Their goal is to create an assistant that can ****analyze**** images provided by
 ○ A Large Language Model-based agent that focuses on generating textual responses.  
 
 
-**Question 4**
-**A student is using OCI Generative AI Embedding models to summarize long academic papers.****
-If a paper exceeds the model’s token limit, but the most important insights are at the beginning, what action should the student take?**
-    ○ Split the paper into multiple overlapping parts and embed separately.
-✅ **Select to truncate the end.**
-○ Manually remove words before processing with embeddings.
-○ Select to truncate the start.
+**Question 4**<br>
+**A student is using OCI Generative AI Embedding models to summarize long academic papers.**<br>
+**If a paper exceeds the model’s token limit, but the most important insights are at the beginning, what action should the student take?**<br>
+    ○ Split the paper into multiple overlapping parts and embed separately.<br>
+✅ **Select to truncate the end.**<br>
+○ Manually remove words before processing with embeddings.<br>
+○ Select to truncate the start.<br>
 
-**Question 5**
-**What is the primary function of the “temperature” parameter in OCI Generative AI Chat models?**
-    ○ Determines the maximum number of tokens the model can generate per response.
-○ Assigns a penalty to tokens that have already appeared in the preceding text.
-✅ **Controls the randomness of the model’s output, affecting its creativity.**
-○ Specifies a string that tells the model to stop generating more content.
+**Question 5**<br>
+**What is the primary function of the “temperature” parameter in OCI Generative AI Chat models?**<br><br>
+    ○ Determines the maximum number of tokens the model can generate per response.<br>
+○ Assigns a penalty to tokens that have already appeared in the preceding text.<br>
+✅ **Controls the randomness of the model’s output, affecting its creativity.**<br>
+○ Specifies a string that tells the model to stop generating more content.<br>
 
 **Question 6**
 **What is the purpose of the given line of code?**
@@ -368,5 +368,6 @@ retr = vs.as_retriever(search_type="similarity", search_kwargs={"k": 3})
 ✅ **To ensure the chatbot’s responses are diverse and unpredictable, the engineer sets a high temperature and uses non-deterministic decoding.**
 ○ In a situation requiring creative and varied responses, the engineer selects greedy decoding with an increased temperature.
 ○ To minimize the risk of nonsensical replies, the engineer opts for non-deterministic decoding with a very low temperature.
+
 
 
