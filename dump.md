@@ -5,21 +5,21 @@
 ○ It will not have any impact.  
 ✅ **The continuity of the context may be lost.**  
 
-**Question 2**
+**Question 2**  
 **When using a specific LLM and splitting documents into chunks, which parameter should you check to ensure the chunks are appropriately sized for processing?**  
     ✅ **Context window size.**  
 ○ Max number of tokens LLM can generate.  
 ○ Number of LLM parameters.  
 ○ Number of LLM layers.  
 
-**Question 3**
-**An AI development company is working on an advanced AI assistant capable of handling queries in a seamless manner.****
-Their goal is to create an assistant that can ****analyze**** images provided by users and generate descriptive text, as well as take text descriptions and produce accurate visual representations.**
-**Considering the capabilities, which type of model would the company likely focus on integrating into their AI assistant?**
-    ○ A language model that operates on a token-by-token output basis.
-✅ **A diffusion model that specializes in producing complex outputs.**
-○ A Retrieval-Augmented Generation (RAG) model that uses text as input and output.
-○ A Large Language Model-based agent that focuses on generating textual responses.
+**Question 3**  
+**An AI development company is working on an advanced AI assistant capable of handling queries in a seamless manner.**  
+Their goal is to create an assistant that can ****analyze**** images provided by users and generate descriptive text, as well as take text descriptions and produce accurate visual representations.**  
+**Considering the capabilities, which type of model would the company likely focus on integrating into their AI assistant?**  
+    ○ A language model that operates on a token-by-token output basis.  
+✅ **A diffusion model that specializes in producing complex outputs.**  
+○ A Retrieval-Augmented Generation (RAG) model that uses text as input and output.  
+○ A Large Language Model-based agent that focuses on generating textual responses.  
 
 
 **Question 4**
@@ -368,4 +368,5 @@ retr = vs.as_retriever(search_type="similarity", search_kwargs={"k": 3})
 ✅ **To ensure the chatbot’s responses are diverse and unpredictable, the engineer sets a high temperature and uses non-deterministic decoding.**
 ○ In a situation requiring creative and varied responses, the engineer selects greedy decoding with an increased temperature.
 ○ To minimize the risk of nonsensical replies, the engineer opts for non-deterministic decoding with a very low temperature.
+
 
