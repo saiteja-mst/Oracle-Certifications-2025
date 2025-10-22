@@ -93,8 +93,8 @@ embed_text_detail.truncate = "NONE"<br>
 
 **Question 12**
 **What happens when you enable the session option while creating an endpoint in Generative AI Agents?**<br>
-✅**The context of the chat session is retained, and the option cannot be changed later.****<br>
-**○ The agent stops responding after one hour of inactivity.<br>
+✅**The context of the chat session is retained, and the option cannot be changed later.**<br>
+○ The agent stops responding after one hour of inactivity.<br>
 ○ The context of the chat session is retained, but the option can be disabled later.<br>
 ○ All conversations are saved permanently regardless of session settings.<br>
 
@@ -377,6 +377,7 @@ Prompt 3<br>
 ✅ **To ensure the chatbot’s responses are diverse and unpredictable, the engineer sets a high temperature and uses non-deterministic decoding.**<br>
 ○ In a situation requiring creative and varied responses, the engineer selects greedy decoding with an increased temperature.<br>
 ○ To minimize the risk of nonsensical replies, the engineer opts for non-deterministic decoding with a very low temperature.<br>
+
 
 
 
