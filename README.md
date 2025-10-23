@@ -1,7 +1,8 @@
 # For the community to help them in getting the Certifications.
 
-# Oracle Cloud Infrastructure 2025 Generative AI Professional (1Z0-1127-25) Exam Dump
+# Oracle Cloud Infrastructure 2025 Generative AI Professional
+## (1Z0-1127-25) Exam Dump
 [Oracle Cloud Infrastructure 2025 Generative AI Professional (1Z0-1127-25) Exam Dump](./(1Z0-1127-25)Exam_dump.md) <br>
 
-# Oracle Cloud Infrastructure 2025 Generative AI Professional (1Z0-1127-25) Practice Test Dump
-[Oracle Cloud Infrastructure 2025 Generative AI Professional (1Z0-1127-25) Exam Dump](./(1Z0-1127-25)Practice_test.docx) 
+## (1Z0-1127-25) Practice Test Dump
+[Oracle Cloud Infrastructure 2025 Generative AI Professional (1Z0-1127-25) Exam Dump](./(1Z0-1127-25)Practice_test_ques.docx) 
