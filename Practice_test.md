@@ -1,3 +1,5 @@
+# Practice Exam: OCI Data Science Professional Certification (1Z0-1110-25)
+
 #### Q1. A company wants to integrate an LLM into its customer support chatbot using OCI. What is the fastest way to deploy and test the model?
 - [x] Using AI Quick Actions to quickly deploy a pretrained LLM ✅
 - [ ] Building a deep learning model in Jupyter Notebook
