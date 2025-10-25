@@ -11,7 +11,7 @@
 ## (1Z0-1110-25) Practice Exam Dump
 [Oracle Cloud Infrastructure Data Science Professional Certification 2025 Practice Exam Dump](./(1Z0-1110-25)Practice_test.md)<br><br><br>
 
-# Oracle Fusion AI Agent Studio Foundations Associate -Rel-1
+# Oracle Fusion AI Agent Studio Foundations Associate - Rel 1
 ## (1Z0-1145-1) Examp Dump
-
+[Oracle Fusion AI Agent Studio Foundations Associate - Rel 1 Exam Dump](./(1Z0-1145-1)Exam_dump.md)
 
