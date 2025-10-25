@@ -5,4 +5,4 @@
 [Oracle Cloud Infrastructure 2025 Generative AI Professional (1Z0-1127-25) Exam Dump](./(1Z0-1127-25)Exam_dump.md) <br>
 
 ## (1Z0-1127-25) Practice Test Dump
-[Oracle Cloud Infrastructure 2025 Generative AI Professional (1Z0-1127-25) Practice Test Dump](./(1Z0-1127-25)Practice_test_ques1.md) 
+[Oracle Cloud Infrastructure 2025 Generative AI Professional (1Z0-1127-25) Practice Test Dump](./(1Z0-1127-25)Practice_test.md) 
