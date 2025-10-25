@@ -67,7 +67,11 @@ Which AI Agent Studio feature should be used?
 - [ ] B. Analyze token counts for each agent in the Metrics Reporting Dashboard  
 - [x] C. Run an evaluation of each agent using expected inputs and outputs ✅
 
-
+#### Q12. Which metric is used to calculate the financial cost of using an AI Agent?
+- [ ] Latency
+- [x] Tokens consumed ✅
+- [ ] Accuracy
+- [ ] Number of users
 
 ### Q13. You are reviewing an agent that is in production. Your client wants you to improve the agent’s logic and requires you to build a new version.  
 To confirm that an agent’s logic has improved in a new version after deployment, which AI Agent Studio capability should you use?
