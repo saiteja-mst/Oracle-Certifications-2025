@@ -1,3 +1,5 @@
+# (1Z0-1145-1) Exam Dump - Oracle Fusion AI Agent Studio Foundations Associate - Rel 1 
+
 ### Q1. Which of the following distinguish an AI Agent in Oracle AI Agent Studio from a generative AI service?
 - [ ] A. AI Agents perform scheduled infrastructure updates, while generative AI services maintain system security controls  
 - [ ] B. AI Agents implement data encryption protocols, whereas generative AI services automate payroll processing  
@@ -67,7 +69,7 @@ Which AI Agent Studio feature should be used?
 - [ ] B. Analyze token counts for each agent in the Metrics Reporting Dashboard  
 - [x] C. Run an evaluation of each agent using expected inputs and outputs ✅
 
-#### Q12. Which metric is used to calculate the financial cost of using an AI Agent?
+### Q12. Which metric is used to calculate the financial cost of using an AI Agent?
 - [ ] Latency
 - [x] Tokens consumed ✅
 - [ ] Accuracy
@@ -92,37 +94,144 @@ Which combination of metrics should they use?
 - [x] Email tool, to write and send summary emails to recipients ✅
 - [ ] Business Object tool, to record transaction metadata
 
-#### Q16. An agent needs to summarize information from uploaded company manuals or guides to provide up-to-date answers for users. Which tool in AI Agent Studio should be used?
+### Q16. An agent needs to summarize information from uploaded company manuals or guides to provide up-to-date answers for users. Which tool in AI Agent Studio should be used?
 - [ ] Accuracy tool, to determine how many answers are correct
 - [ ] Deep Link tool, to direct users to to relevant pages or application interfaces
 - [x] Document tool, to enable semantic search to base responses in unstructured documents ✅
 - [ ] Business Object tool, to change information found in the manuals or guides
 
-#### Q17. To tailor a supplier negotiation agent's persona and reasoning, what must you edit or customize within the template?
+### Q17. To tailor a supplier negotiation agent's persona and reasoning, what must you edit or customize within the template?
 - [ ] Latency metrics
 - [x] System prompts and topics for the agent ✅
 - [ ] Document tool chunk size
 
-#### Q18. A company wants to implement an AI agent to automate its customer service process. They want to use a tool to integrate within Oracle Fusion's CRM to retrieve customer data. What type of tool should they use?
+### Q18. A company wants to implement an AI agent to automate its customer service process. They want to use a tool to integrate within Oracle Fusion's CRM to retrieve customer data. What type of tool should they use?
 - [ ] Document tool
 - [x] Business Object tool ✅
 - [ ] External REST tool
 - [ ] Email tool
 
-#### Q19. A department requires an agent workflow that must access data in a third party system and custom data objects with Fusion Applications. What should the department do to build this agent in AI Agent Studio?
+### Q19. A department requires an agent workflow that must access data in a third party system and custom data objects with Fusion Applications. What should the department do to build this agent in AI Agent Studio?
 - [ ] Build the agent workflow from scratch
 - [x] Select and customize a pre-built agent template ✅
 - [ ] Add an email tool to the agent workflow
 - [ ] Use generative AI services instead of an agent
 
-#### Q20. Which two dashboard metrics in AI Agent Studio are useful for monitoring agent performance at run time?
+### Q20. Which two dashboard metrics in AI Agent Studio are useful for monitoring agent performance at run time?
 - [x] Correctness score ✅
 - [ ] User interface color scheme
 - [ ] Number of team meetings held
 - [x] Median or P99 latency ✅
 
-#### Q21. When preparing to test agents in AI Agent Studio, how do you use evaluation test data?
+### Q21. When preparing to test agents in AI Agent Studio, how do you use evaluation test data?
 - [ ] Add evaluation sets to determine which business objects are available to the agent at runtime
 - [ ] Use evaluation test data to automatically fine-tune the LLM behind the agent
 - [x] Upload a collection of test inputs and reference answers to compare agent performance during offline testing ✅
+
+### Q22. During agent testing, how do metrics for latency and tokens help ensure quality?
+- [ ] Capture the amount of time saved due to business process optimization and user adoption rates
+- [x] Confirm that the agent response wait time is acceptable and indicates the financial cost of running the agent ✅
+- [ ] Confirm the accuracy of the agent responses and measure the overall efficiency of the agent
+
+### Q23. Why would you use agent tracing during quality testing?
+- [ ] To review the number of embedded vectors created from documents
+- [x] To visualize execution steps and identify process errors ✅
+- [ ] To add or remove business object fields
+
+### Q24. A sales leader wants agents to generate customer communications that match their company's tone. Which two customizations should the sales leader make to the agent template?
+- [ ] Disable LLM-based content generation
+- [x] Create additional topics depicting various customer interaction scenarios ✅
+- [ ] Limit the agent to internal notification messages only
+- [x] Modify the system prompt to specify tone and language preferences ✅
+
+### Q25. A financial controller implements a Pricing Promotions agent template, but periodic industry promotions require industry-specific compliance language in promotional summaries. In which two ways can the controller customize the agent template to address this requirement?
+- [ ] Change the AI model to a multilingual version for broader coverage
+- [ ] Remove all access to past promotional data for agent responses
+- [x] Update the system prompt with compliance language for industry-specific promotions ✅
+- [x] Add topics detailing specific compliance requirements by promotion type ✅
+
+### Q26. An implementation consultant must ensure that all agent workflows requiring sensitive updates, such as deleting customer data, present safeguards before execution. In which two ways does AI Agent Studio support this?
+- [ ] Scheduling automatic execution of deletions regardless of user input
+- [x] Using role-based security and Fusion user tokens to authorize sensitive operations ✅
+- [x] Adding human review (human-in-the-loop) before completing sensitive transactions ✅
+- [ ] Enabling unrestricted agent access for faster processing
+
+### Q27. A developer wants to ensure that data retrieved by an agent reflects the latest and most accurate information while remaining secure. How can this requirement be met?
+- [ ] Enable broad data exports for convenience
+- [ ] Mask the agent's access to data
+- [ ] Prevent duplication of data by operating the agent outside of Fusion
+- [x] Access business objects within Fusion where the secured data resides ✅
+
+### Q28. A project lead is setting up an agent to retrieve and summarize shift data from Oracle Fusion. What can be done to minimize exposure of unrelated or confidential information?
+- [ ] Limit the agent's queries and responses to specific, relevant business object fields
+- [ ] Set up the agent for public data sharing to promote transparency
+- [x] Align agent access rules with existing user permissions ✅
+
+### Q29. You need an agent to fetch real-time sales order status from an external logistics platform. Which tool in AI Agent Studio helps build this automation?
+- [x] External REST tool ✅
+- [ ] Document tool
+- [ ] Business Object tool
+- [ ] User Session tool
+
+### Q30. A developer notices that not all agents have access to sensitive customer information. Which feature of AI Agent Studio controls data that each agent can use?
+- [ ] Document tool folder permissions
+- [ ] Pre-configured system prompts
+- [ ] Integrations defined in REST tool
+- [x] Fusion's role-based access controls ✅
+
+### Q31. A retail company needs to streamline its order-to-cash process by using an AI Agent in Oracle AI Agent Studio to generate invoices and send them directly to customers. Which tool set below is required to build this automation?
+- [ ] Document tool for uploading invoices and Calculator tool for verifying accurate invoices
+- [x] Business Object tool for accessing invoice data and Email tool for sending customer communications ✅
+- [ ] External REST tool for connecting to a payment gateway and Deep Link tool for directing users to account pages
+- [ ] Notification tool for sending SMS alerts and User Session tool for customizing interface themes
+
+### Q32. For an AI Agent configured to update employee data in Fusion Applications, what method within AI Agent Studio ensures sensitive changes are securely managed?
+- [ ] Configure the agent to send alerts to stakeholders after sensitive data is updated
+- [x] Add a human-in-the-loop step that requires approval before changing sensitive data ✅
+- [ ] Set agent permissions to restrict certain update actions to specific business hours
+
+### Q33. How is the External REST tool utilized within Oracle AI Agent Studio?
+- [ ] It helps create deep links within Fusion Applications to navigate users to specific pages
+- [ ] It generates templates for personalized user interfaces for agent interactions across various channels
+- [x] It enables agents to exchange information from systems outside of Fusion Applications through defined APIs ✅
+
+### Q34. What is the difference between System Prompts and Topics in Oracle AI Agent Studio?
+- [x] System Prompts define the agent's role and instructions; Topics refine the scope or context for specific tasks ✅
+- [ ] System Prompts enable scheduling workflows; Topics provide configuration for automated backups
+- [ ] System Prompts generate data visualizations; Topics control document uploads
+
+### Q35. What are the components of Oracle AI Agent Studio?
+- [ ] Workflow templates, custom scripts, and scheduling triggers
+- [ ] Process orchestrators, data connectors, and security profiles
+- [x] Agent teams, tools, templates, and topics ✅
+
+### Q36. When configuring agents in Oracle AI Agent Studio, which two types of tools can be included within agent workflows?
+- [ ] Survey tools for collecting employee feedback
+- [x] Business Object tool for data transactions ✅
+- [x] External REST tools for connecting to other systems ✅
+- [ ] Formula Builder tools for financial forecasting
+
+### Q37. Which two agents are available as prebuilt templates in AI Agent Studio?
+- [ ] Google Search Agent
+- [ ] Inventory Audit Agent
+- [x] Benefits Agent ✅
+- [x] Payslip Agent ✅
+
+### Q38. A finance team wants to automate the creation of narrative reports using AI Agent Studio. Which two methods are available to streamline report generation?
+- [ ] Change the data visualization library used by the narrative reporting agent template
+- [x] Use a prebuilt agent template designed for narrative reporting ✅
+- [x] Customize the system prompt to align the agent's tone and content to company standards ✅
+- [ ] Enable multi-language support for narrative reports by adjusting agent workflow settings
+
+### Q39. Before publishing a new agent built from a template in AI Agent Studio, which two actions must be completed?
+- [x] Reviewing and adjusting the agent's system prompt and topics as needed ✅
+- [x] Performing design time/offline testing to ensure the agent works correctly ✅
+- [ ] Configuring user session parameters to enable semantic search
+- [ ] Assigning the agent to a business object group for version control
+
+### Q40. An HR administrator wants to quickly deploy an agent to help employees navigate company benefits and tailor the agent's responses to their organization's specific policies. Which two steps can the administrator take using prebuilt templates in AI Agent Studio?
+- [x] Customize the system prompt of the Benefits Agent template with company policy details ✅
+- [ ] Import policy data by uploading documents directly to the agent template
+- [ ] Modify the agent's source code within the template editor
+- [x] Adjust the agent's topics to cover organization-specific benefits scenarios ✅
 
