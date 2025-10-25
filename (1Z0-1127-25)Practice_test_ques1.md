@@ -1,4 +1,4 @@
-# Oracle Cloud Infrastructure 2025 \- Generative AI Professional Practice Exam, you can find the answers here [Answers](#answers)
+# Oracle Cloud Infrastructure 2025 \- Generative AI Professional Practice Exam, you can find the answers here -> [Solutions](#answers)
 
 **1\. What is the role of the inputs parameter in the given code snippet?**
 
