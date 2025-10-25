@@ -191,3 +191,152 @@ Which two prevailing metrics would you use for evaluating the multiclass classif
 - [ ] R-squared
 - [ ] Explained variance score
 
+#### Q29. A data scientist is using an AI model to predict fraudulent transactions. A financial regulator asks why a specific transaction was flagged as fraud.  
+Which technique should the data scientist use?
+- [ ] Global Explanation
+- [x] Local Explanation ✅
+- [ ] What-If Explanation
+- [ ] Feature Permutation Importance
+
+#### Q30. While working with Git on Oracle Cloud Infrastructure (OCI) Data Science, you notice that two of the operations are taking more time than the others due to your slow internet speed.  
+Which two operations would experience the delay?
+- [ ] Moving changes into the staging area for the next commit
+- [ ] Converting an existing local project folder to Git repository
+- [ ] Making a commit that is taking a snapshot of the local repository for the next push
+- [x] Pushing changes to a remote repository ✅
+- [x] Updating the local repo to match the content from a remote repository ✅
+
+#### Q31. You are given data with sensitive information like emails and contact numbers of the customer. You need to redact this information before using it further.  
+What OCI Data Science Operator can you use for this purpose?
+- [x] PII ✅
+- [ ] Anomaly
+- [ ] Forecasting
+
+#### Q32. You want to create a user group for a team of external data science consultants. The consultants should only have the ability to view data science resource details but not the ability to create, delete, or update data science resources.  
+What verb should you write in the policy?
+- [ ] Inspect
+- [x] Read ✅
+- [ ] Use
+- [ ] Manage
+
+#### Q33. What is the primary reason for performing feature scaling in machine learning models?
+- [ ] To convert categorical data into numerical form
+- [x] To bring features on to the same scale ✅
+- [ ] To make the dataset smaller for faster computation
+- [ ] To automatically detect missing values and fill them with mean or median
+
+#### Q34. What is the difference between a job and a job run in OCI Data Science Jobs?
+- [ ] A job is used for model training, while a job run is used for batch inference.
+- [x] A job is a template, while a job run is a single execution of that template. ✅
+- [ ] A job is a single execution, while a job run is a template.
+- [ ] A job is immutable, while a job run can be modified.
+
+#### Q35. What is the primary goal of the loss function in model training?
+- [ ] To determine the best algorithm for training the model
+- [ ] To maximize the likelihood of data points fitting the model
+- [x] To compare predicted values with true target values and quantify their difference ✅
+- [ ] To update the model parameters to optimize performance
+
+#### Q36. A company has trained a machine learning model and wants to fine-tune it by experimenting with hyperparameter values based on prior experience.  
+What approach should they take?
+- [ ] Apply the detailed search space for broader tuning.
+- [ ] Skip hyperparameter tuning altogether.
+- [x] Define a custom search space with specific hyperparameter values. ✅
+- [ ] Use the built-in perfunctory search strategy.
+
+#### Q37. A team of data scientists is working on multiple machine learning models for fraud detection. They want to collaborate in a structured manner.  
+What option is available to create a Data Science Project in OCI?
+- [ ] Can be created only through the OCI Console UI
+- [x] Can be created through either the OCI Console UI or the ADS SDK ✅
+- [ ] Can be created using a command-line interface (CLI) only
+- [ ] Can be created only through the ADS SDK
+
+#### Q39. A data scientist wants to develop a PySpark application iteratively using a sample of their dataset.  
+Which environment is recommended for this purpose?
+- [ ] OCI Compute
+- [ ] OCI Object Storage
+- [ ] OCI Virtual Cloud Network
+- [x] OCI Data Science notebook session ✅
+
+#### Q40. What is the final step after running the Oracle Resource Manager stack for Data Science configuration?
+- [ ] Modifying the Terraform script in GitHub
+- [x] Adding users to the automatically created user group ✅
+- [ ] Deleting the default compartment
+- [ ] Creating an additional stack for security configuration
+
+#### Q41. Which type of data is NOT available in Oracle Open Data?
+- [ ] Protein sequences and genomic data
+- [x] Financial transaction data ✅
+- [ ] Geospatial data from satellite systems
+- [ ] Annotated text files
+
+#### Q42. A data scientist updates an IAM policy to grant their notebook session access to an Object Storage bucket. However, the notebook still cannot access the bucket.  
+What is the likely reason?
+- [x] The resource principal token is still cached. ✅
+- [ ] Object Storage does not support access from notebooks.
+- [ ] The user needs to restart the entire OCI environment.
+- [ ] The IAM policy is incorrect.
+
+#### Q43. Which resource types are included in the default matching rules of the Data Science Service template?
+- [ ] datasciencenetwork, datasiencedatabase, datasciencebackup
+- [x] datasciencemodeldeployment, datasciencenotebooksession, datasciencejobrun ✅
+- [ ] datascienceanalytics, datasiencemonitoring, datasciencebatchjob
+- [ ] datascienceobjectstorage, datasciencecomputeinstance, datasciencemodeltraining
+
+#### Q44. A data scientist is working on a project to train a machine learning model to identify tigers in images.  
+What is the first step they need to take before training the model?
+- [ ] Deploy the model.
+- [ ] Use OCI Vision Services.
+- [x] Label the images with “tiger” or “not tiger”. ✅
+- [ ] Analyze customer feedback.
+
+#### Q45. Which two statements are true about Oracle Cloud Infrastructure (OCI) Open Data Service?
+- [ ] A primary goal of Open Data is for users to contribute to the data repositories in order to expand the content offered.
+- [ ] Subscribers can pay and log into Open Data to view curated datasets that are otherwise not available to the public.
+- [ ] Open Data includes text and image data repositories for AI and ML. Audio and video formats are not available.
+- [x] Open Data is a dataset repository made for the people that create, use, and manipulate datasets. ✅
+- [x] Each dataset in Open Data consists of code and tooling usage examples for consumption and reproducibility. ✅
+
+#### Q46. You have trained a binary classifier for a loan application and saved this model into the model catalog. A colleague wants to examine the model, and you need to share it.  
+From the model catalog, which model artifacts can be shared?
+- [ ] Models and metrics only
+- [ ] Metadata, hyperparameters, and metrics only
+- [x] Models, model metadata, hyperparameters, and metrics ✅
+- [ ] Model metadata and hyperparameters only
+
+#### Q47. Arrange the steps of Git operations in correct order:
+1. Install, configure, and authenticate Git.  
+2. Configure SSH keys for the Git repository.  
+3. Create a local and remote Git repository.  
+4. Commit files to the local Git repo.  
+5. Push the commit to the remote Git repo.
+- [x] 2, 3, 1, 4, 5 ✅
+- [ ] 4, 2, 3, 1, 5  
+- [ ] 3, 5, 1, 2, 4  
+- [ ] 1, 2, 3, 4, 5  
+
+#### Q48. You have been given a collection of digital files for a business audit and want to annotate them using OCI Data Labeling.  
+Which three types of files could this tool annotate?
+- [x] Video footage of a conversation in a conference room ✅
+- [ ] A type-written document that details an annual budget
+- [x] Images of computer server racks ✅
+- [ ] A collection of purchase orders for office supplies
+- [x] An audio recording of a phone conversation ✅
+
+#### Q49. You just started as a data scientist at a healthcare company and are analyzing a deep neural network model built using ECG records. There are no details about the framework used.  
+What is the best way to find more details about the model inside the model catalog?
+- [ ] Check for Provenance details.
+- [ ] Refer to the code inside the model.
+- [x] Check for Model Taxonomy details. ✅
+- [ ] Check for metadata tags.
+
+#### Q50. A user wants to fetch data from an Autonomous Database in OCI without using a database wallet.  
+What must they do?
+- [ ] Enable API authentication in the database console.  
+- [ ] Use `ads.read_sql` without any additional parameters.  
+- [x] Provide the hostname and port number in the `connection_parameters` dictionary. ✅  
+- [ ] Use an HTTP request to retrieve database records.
+
+
+
+
