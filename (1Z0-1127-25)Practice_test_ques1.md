@@ -1,4 +1,4 @@
-# Oracle Cloud Infrastructure 2025 \- Generative AI Professional Practice Exam
+# Oracle Cloud Infrastructure 2025 \- Generative AI Professional Practice Exam, you can find the answers here [](#Answers)
 
 **1\. What is the role of the inputs parameter in the given code snippet?**
 
@@ -508,5 +508,157 @@ embed\_text\_detail.inputs \= inputs
 
  ☐ The threshold for language complexity in responses.
 
- ☐ The type of vector search used for retrieval.
+ ☐ The type of vector search used for retrieval.<br><br>
+
+## Answers
+
+**1. What is the role of the inputs parameter in the given code snippet?**  
+✔ It specifies the text data that will be converted into embeddings.
+
+**2. What must be done before you can delete a knowledge base in Generative AI Agents?**  
+✔ Delete the data sources and agents using that knowledge base.
+
+**3. What does the loss metric indicate about the model's predictions?**  
+✔ Loss quantifies how far the model's predictions deviate from the actual values, indicating how wrong the predictions are.
+
+**4. What does accuracy measure in the context of fine-tuning results for a generative model?**  
+✔ How many predictions the model made correctly out of all the predictions in an evaluation.
+
+**5. What is the purpose of the VECTOR field in the Oracle Database 23ai table for Generative AI Agents?**  
+✔ To store the embeddings generated from the BODY content.
+
+**6. Why are diffusion models difficult to apply to text generation tasks?**  
+✔ Because text representation is categorical, unlike images.
+
+**7. What is the role of indexing in managing and querying vector data?**  
+✔ Mapping vectors to a data structure for faster searching, enabling efficient retrieval.
+
+**8. How does a presence penalty function when using OCI Generative AI chat models?**  
+✔ It penalizes a token each time it appears after the first occurrence.
+
+**9. What is the total number of units provisioned for the cluster?**  
+✔ 1
+
+**10. What type of relationships do vector databases preserve for LLMs?**  
+✔ Semantic relationships, crucial for understanding context and generating precise language.
+
+**11. How does temperature influence the probability distribution?**  
+✔ Increasing temperature flattens the distribution, allowing for more varied word choices.
+
+**12. Which RAG component evaluates and prioritizes retrieved information?**  
+✔ Ranker
+
+**13. What is the destination port range for Oracle Database in OCI Generative AI Agents?**  
+✔ 1521–1522
+
+**14. Which statement is true about the "Top p" parameter?**  
+✔ “Top p” limits token selection based on the sum of their probabilities.
+
+**15. What happens if you don’t provide a seed value?**  
+✔ The model gives diverse responses.
+
+**16. How many AI clusters are needed to host at least 60 endpoints?**  
+✔ 3
+
+**17. Which statement is true about RAG?**  
+✔ It is non-parametric and can theoretically answer questions about any corpus.
+
+**18. How many numerical values are generated for each input using cohere.embed-english-light-v3.0?**  
+✔ 384
+
+**19. What advantage does fine-tuning offer?**  
+✔ It improves the model’s understanding of human preferences.
+
+**20. Which settings are most likely to induce hallucinations?**  
+✔ `temperature = 0.9`, `top_p = 0.8`, and `frequency_penalty = 0.1`
+
+**21. What happens to the endpoint status after moving to another compartment?**  
+✔ The status changes to Updating during the move and returns to Active after completion.
+
+**22. Which data type should store embeddings of images in Oracle Database 23ai?**  
+✔ VECTOR
+
+**23. How many transactions are billed for one prompt+response inference call?**  
+✔ 1 transaction per API call, regardless of length.
+
+**24. Which does NOT apply when preparing PDF files for OCI Generative AI Agents?**  
+✔ Charts must be two-dimensional with labeled axes.
+
+**25. Which parameter ensures identical outputs for the same prompt?**  
+✔ seed
+
+**26. What happens when this line is executed?**  
+`embed_text_response = generative_ai_inference_client.embed_text(embed_text_detail)`  
+✔ It sends a request to OCI Generative AI to generate embeddings for the input text.
+
+**27. Which RAG phase includes loading, splitting, and embedding documents?**  
+✔ Ingestion
+
+**28. How does Groundedness differ from Answer Relevance?**  
+✔ Groundedness = factual correctness; Answer Relevance = query relevance.
+
+**29. What does greedy decoding entail?**  
+✔ Choosing the word with the highest probability at each step.
+
+**30. What does OnDemandServingMode specify?**  
+✔ The model serves requests only on demand, not continuously.
+
+**31. What characterizes T-Few fine-tuning?**  
+✔ It selectively updates only a fraction of the model’s weights.
+
+**32. How can you affect the probability distribution of an LLM?**  
+✔ By using techniques like prompting and training.
+
+**33. Which is NOT a supported knowledge base data type?**  
+✔ Custom-built file systems.
+
+**34. What happens to chat data after a session ends?**  
+✔ They are permanently deleted and not retained.
+
+**35. Why did the model generate incorrect smartwatch features?**  
+✔ The model is hallucinating, generating responses not grounded in factual data.
+
+**36. How is `totalTrainingSteps` calculated?**  
+✔ `totalTrainingSteps = (totalTrainingEpochs * size(trainingDataset)) / trainingBatchSize`
+
+**37. What does enabling multi-modal parsing do?**  
+✔ Parses and includes information from charts and graphs in the documents.
+
+**38. When does a chain interact with memory in LangChain?**  
+✔ After user input but before execution, and again before output.
+
+**39. What does a cosine distance of 0 mean?**  
+✔ The embeddings are similar in direction.
+
+**40. When is soft prompting most appropriate?**  
+✔ When adding learnable parameters to an LLM without task-specific training.
+
+**41. What should a company do if its OCI Generative AI model is deprecated?**  
+✔ Continue using it for now but plan to migrate before retirement.
+
+**42. Which fine-tuning methods are supported by cohere.command-r-08-2024?**  
+✔ T-Few and LoRA
+
+**43. Which approach allows declarative component replacement in LLM apps?**  
+✔ Use LangChain Expression Language (LCEL).
+
+**44. What does the OCI Generative AI service offer?**  
+✔ Fully managed LLMs and the ability to create custom fine-tuned models.
+
+**45. When is fine-tuning appropriate?**  
+✔ When the LLM underperforms on a specific task and data is too large for prompt engineering.
+
+**48. What is the purpose of the endpoint variable?**  
+✔ It defines the URL of the OCI Generative AI inference service.
+
+**49. What is correct about fine-tuning vs PEFT?**  
+✔ Fine-tuning trains all weights (costly), while PEFT updates only a small subset of parameters.
+
+**50. When activating content moderation, what can you specify?**  
+✔ Whether moderation applies to user prompts, generated responses, or both.
+
+---
+
+
+ 
 
