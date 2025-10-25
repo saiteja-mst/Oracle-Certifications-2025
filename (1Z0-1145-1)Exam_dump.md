@@ -60,4 +60,65 @@ Which AI Agent Studio feature should be used?
 - [ ] A. Token Usage Report  
 - [ ] B. Business Object tool  
 - [ ] C. Evaluation Set Uploader  
-- [x] D. Metrics Reporting Dashboard ✅  
+- [x] D. Metrics Reporting Dashboard ✅
+
+### Q11. How do you assess the output quality of two versions of an agent?
+- [ ] A. Change the agent’s system prompt in AI Studio while they are running  
+- [ ] B. Analyze token counts for each agent in the Metrics Reporting Dashboard  
+- [x] C. Run an evaluation of each agent using expected inputs and outputs ✅
+
+
+
+### Q13. You are reviewing an agent that is in production. Your client wants you to improve the agent’s logic and requires you to build a new version.  
+To confirm that an agent’s logic has improved in a new version after deployment, which AI Agent Studio capability should you use?
+- [ ] A. Perform a semantic search for similarity of the two versions  
+- [ ] B. Use the Document tool to compare the versions  
+- [x] C. Run a comparative analysis of the two versions ✅  
+
+### Q14. Your support lead wants to optimize agent workflow for both accuracy and customer wait time.  
+Which combination of metrics should they use?
+- [ ] A. Error Rate and User Token  
+- [x] B. Correctness and Latency ✅  
+- [ ] C. Input and Output Token Counts  
+- [ ] D. Token Usage and Latency
+
+#### Q15. Which tool can be used for enabling an agent to send summary notifications to users after key transactions?
+- [ ] Deep Link tool, to send users to specific pages
+- [ ] Calculator tool, to compute notification frequencies
+- [x] Email tool, to write and send summary emails to recipients ✅
+- [ ] Business Object tool, to record transaction metadata
+
+#### Q16. An agent needs to summarize information from uploaded company manuals or guides to provide up-to-date answers for users. Which tool in AI Agent Studio should be used?
+- [ ] Accuracy tool, to determine how many answers are correct
+- [ ] Deep Link tool, to direct users to to relevant pages or application interfaces
+- [x] Document tool, to enable semantic search to base responses in unstructured documents ✅
+- [ ] Business Object tool, to change information found in the manuals or guides
+
+#### Q17. To tailor a supplier negotiation agent's persona and reasoning, what must you edit or customize within the template?
+- [ ] Latency metrics
+- [x] System prompts and topics for the agent ✅
+- [ ] Document tool chunk size
+
+#### Q18. A company wants to implement an AI agent to automate its customer service process. They want to use a tool to integrate within Oracle Fusion's CRM to retrieve customer data. What type of tool should they use?
+- [ ] Document tool
+- [x] Business Object tool ✅
+- [ ] External REST tool
+- [ ] Email tool
+
+#### Q19. A department requires an agent workflow that must access data in a third party system and custom data objects with Fusion Applications. What should the department do to build this agent in AI Agent Studio?
+- [ ] Build the agent workflow from scratch
+- [x] Select and customize a pre-built agent template ✅
+- [ ] Add an email tool to the agent workflow
+- [ ] Use generative AI services instead of an agent
+
+#### Q20. Which two dashboard metrics in AI Agent Studio are useful for monitoring agent performance at run time?
+- [x] Correctness score ✅
+- [ ] User interface color scheme
+- [ ] Number of team meetings held
+- [x] Median or P99 latency ✅
+
+#### Q21. When preparing to test agents in AI Agent Studio, how do you use evaluation test data?
+- [ ] Add evaluation sets to determine which business objects are available to the agent at runtime
+- [ ] Use evaluation test data to automatically fine-tune the LLM behind the agent
+- [x] Upload a collection of test inputs and reference answers to compare agent performance during offline testing ✅
+
