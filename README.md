@@ -1,4 +1,4 @@
-# For the community to help them in getting the Certifications.
+# For the Oracle community 
 
 # Oracle Cloud Infrastructure 2025 Generative AI Professional
 ## (1Z0-1127-25) Exam Dump
