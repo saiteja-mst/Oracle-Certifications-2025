@@ -234,6 +234,111 @@ Which of the following **three annotation classes** are supported by the tool?
 - [ ] Polygonal Segmentation  
 - [ ] Semantic Segmentation
 
+#### Q36. You are a data scientist and have a large number of legal documents that need to be classified. You decided to use OCI Data Labeling service to get your data labeled.  
+What are the annotation classes available for annotating document data using OCI Data Labeling service?  
+- [ ] Single, Multiple, Object Detection  
+- [x] Single, Multiple, Entity Extraction ✅  
+- [ ] Single, Multiple, Key Value  
+
+#### Q37. You are building a machine learning model for predicting loan approvals, and the client wants to know which features are most influential in determining whether an applicant is approved. 
+Which explainability method should you use?  
+- [ ] What-If Explanation  
+- [ ] ROC Curve  
+- [x] Feature Permutation Importance ✅  
+- [ ] Individual Conditional Expectation  
+
+#### Q38. You want to evaluate the relationship between feature values and target variables. You have a large number of observations with near uniform distribution and highly correlated features.  
+Which model explanation technique should you choose?  
+- [ ] Local Interpretable Model-Agnostic Explanations (LIME)  
+- [ ] Feature Permutation Importance Explanations  
+- [ ] Feature Dependence Explanations  
+- [x] Accumulated Local Effects ✅  
+
+#### Q39. What is the sequence of steps you are likely to follow to use OCI Data Science Operator?  
+- [x] 1. Install conda.  
+  2. Initialize operator.  
+  3. Configure operator.  
+  4. Run operator.  
+  5. Check results. ✅  
+- [ ] Initialize operator → Install conda → Check results → Configure → Run  
+- [ ] Initialize operator → Install conda → Check results → Configure → Run  
+- [ ] Configure operator → Install conda → Initialize → Run → Check results
+
+#### Q40. What detector in PII Operator are you likely to use if you need to obfuscate the detected sensitive information?  
+- [x] Mask ✅  
+- [ ] Remove  
+- [ ] Anonymize  
+
+#### Q41. You are creating an OCI Data Science job that runs on a recurring basis in a production environment, using sensitive data from Object Storage and saving the model to the model catalog.  
+How would you design the authentication mechanism for the job?  
+- [ ] Create a pre-authenticated request (PAR)  
+- [ ] Package your personal OCI config file and keys  
+- [ ] Store your personal OCI config in Vault  
+- [x] Use the resource principal of the job run as the signer in the job code, ensuring there is a dynamic group for this job with access to Object Storage and the model catalog ✅  
+
+#### Q42. As you are working in your notebook session, you find that your notebook session doesn’t have enough compute CPU and memory for your workload.  
+How would you scale up your notebook session without losing your work?  
+- [ ] Create a temporary bucket and copy manually  
+- [ ] Download locally and reupload  
+- [x] Ensure your files and environments are written to the block volume under `/home/datascience`, deactivate the notebook session, and activate a new one with a larger compute shape ✅  
+- [ ] Deactivate session and re-create all files manually  
+
+#### Q43. You are a data scientist working for a utilities company. You developed an anomaly detection algorithm and need to store the 2 GB model artifact into the model catalog.  
+Which three interfaces could you use to save the model artifact?  
+- [x] Oracle Cloud Infrastructure (OCI) Command Line Interface (CLI) ✅  
+- [x] ODSC CLI ✅  
+- [x] Accelerated Data Science (ADS) Software Development Kit (SDK) ✅  
+- [ ] Git CLI  
+- [ ] OCI Python SDK  
+
+#### Q44. You developed a forecasting model that failed to run because not all third-party dependencies were included in the model artifact.  
+What file should be modified to include the missing libraries?  
+- [ ] score.py  
+- [x] requirements.txt ✅  
+- [ ] runtime.yaml  
+- [ ] model_artifact_validate.py  
+
+#### Q45. Which of the following statements is true regarding metric-based autoscaling in Oracle Data Science model deployment?  
+- [ ] Only custom metrics can be used for metric-based autoscaling.  
+- [ ] Multiple metric-based autoscaling policies can be added simultaneously.  
+- [x] Metric-based autoscaling relies on performance metrics that are averaged across all instances in the model deployment resource. ✅  
+- [ ] The cool-down period starts when the Model Deployment is first created.  
+
+#### Q46. You are managing a machine learning model deployment in OCI Data Science. During peak hours, your application experiences spikes in traffic causing performance bottlenecks.  
+Which configuration ensures cost efficiency while maintaining high performance?  
+- [ ] Disabling the cool-down period  
+- [ ] Predefining a fixed number of instances  
+- [x] Setting the autoscaler with a wide scaling range (e.g., 2 to 15 instances) and enabling the load balancer to dynamically adjust bandwidth based on traffic ✅  
+- [ ] Setting the autoscaler to have a narrow scaling range  
+
+#### Q47. You used the `get_recommendations()` tool in ADS to see suggested transformations.  
+Which option applies all the recommended transformations at once?  
+- [x] auto_transform() ✅  
+- [ ] fit_transform()  
+- [ ] get_transformed_dataset()  
+- [ ] visualize_transforms()  
+
+#### Q48. After creating and opening a notebook session, from which two places can you access or install the ADS SDK?  
+- [x] Conda environments in Oracle Cloud Infrastructure (OCI) Data Science ✅  
+- [x] Python Package Index (PyPI) ✅  
+- [ ] Oracle Machine Learning (OML)  
+- [ ] Oracle Autonomous Data Warehouse  
+- [ ] Oracle Big Data Service  
+
+#### Q49. You are using a Git repository stored on GitHub to track notebooks.  
+Which two statements are true?  
+- [x] Once you have staged your changes, you run `git commit` to save a snapshot of your code. ✅  
+- [ ] Only one of you has to clone the GitHub repo.  
+- [ ] You should work on the same branch.  
+- [ ] You do not have to clone the GitHub repo.  
+- [x] To share your work, you commit and push it to GitHub. Your coworker can pull your changes into their notebook session. ✅  
+
+#### Q50. Which two options signify the importance of having an MLOps strategy?  
+- [x] Model decay – the data that was used to train the model is no longer relevant. ✅  
+- [ ] Data needs preprocessing before training.  
+- [ ] Data scientists need multiple tools for evaluation.  
+- [x] Code updates to model training and deployment must be tested and deployed quickly. ✅  
+- [ ] Data has to be secure both at rest and in transit.  
 
 
 
